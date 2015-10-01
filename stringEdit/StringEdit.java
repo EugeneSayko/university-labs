@@ -87,9 +87,7 @@ public class StringEdit {
                 listString.set(i, strReplace);
                 break;
             }
-
         }
-
     }
 
     public void printString(){
