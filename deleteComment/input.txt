@@ -1,0 +1,40 @@
+
+// test
+// special combinations of characters. ignoring \" \'
+        comment		System.out.println(' \'      ');	/* text */   // text
+        comment		System.out.println(' \'      ');	/* text */   // text
+
+        text		System.out.println(' \\'     ');	/* text */   // text
+        comment		System.out.println(' \\\'    ');	/* text */   // text
+        comment		System.out.println(' \"      ');	/* text */   // text
+        comment		System.out.println(' \\"     ');	/* text */   // text
+        comment		System.out.println(' \\\"    ');	/* text */   // text
+
+        comment		System.out.println(" \'      ");	/* text */   // text
+        comment		System.out.println(" \\'     ");	/* text */   // text
+        comment		System.out.println(" \\\'    ");	/* text */   // text
+        comment		System.out.println(" \"      ");	/* text */   // text
+        text		System.out.println(" \\"     ");	/* text */   // text
+        comment		System.out.println(" \\\"    ");	/* text */   // text
+
+
+// inside ''  can be any number of "
+// inside " " can be any number of '
+        comment 	f('	  "	')	/* text */   // text
+        comment 	f('	  ""	')	/* text */   // text
+        comment 	f('	  """	')	/* text */   // text
+
+        comment 	f("   '		")	/* text */   // text
+        comment 	f("   ''	")	/* text */   // text
+        comment 	f("   '''	")	/* text */   // text
+
+
+// an od number of quotes and others
+        text	f(''')	/* text */   // text
+        text	f(""")	/* text */   // text
+
+        text	f(")	/* text */   // text
+        text	f(')	/* text */   // text
+        text	f(\')	/* text */   // text
+        text	f(\")	/* text */   // text
+        text	f("'"') /* text */   // text
