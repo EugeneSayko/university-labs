@@ -1,4 +1,4 @@
-
+ 
 package deleteComment;
 
 public class Main {
@@ -12,7 +12,7 @@ public class Main {
         String str = "'";
         char ccc = '*';
         char cccc = '"'; 
-        System.out.println("/*dfsdf*////***8*/**//**Hello\", \\'world!\\"); 
+        System.out.println("dfg/*dfsdf*////***8*/**//**Hello\", \\'world!\\"); 
         cccc = 100/'*';
         char f = '\\';
         char f1 = '\n';

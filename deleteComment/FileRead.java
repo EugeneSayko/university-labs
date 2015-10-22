@@ -23,30 +23,21 @@ public class FileRead {
     public StringBuilder readText() throws IOException {
         String line;
         while((line = reader.readLine()) != null){
-            textFile.append(line + "\n");
+            textFile.append(line);
+            textFile.append("\n");
         }
         return textFile;
     }
 
     public void writeTextInFile(StringBuilder str){
-        FileOutputStream fileOutputStream = null;
-        PrintStream printStream = null;
-        try {
-            fileOutputStream = new FileOutputStream(FILE_NAME_OUTPUT);
-            printStream = new PrintStream(fileOutputStream);
+        try(
+                FileOutputStream fileOutputStream = new FileOutputStream(FILE_NAME_OUTPUT);
+                PrintStream printStream = new PrintStream(fileOutputStream);
+                ){
             printStream.print(str);
-        }catch (FileNotFoundException e){
+        }catch (IOException e){
             System.out.println("не удалось записать текст в файл!");
-        }finally {
-            try {
-                fileOutputStream.close();
-                printStream.close();
-            } catch (IOException e) {
-                System.out.println("ошибка при закрытии файла!");
-            }
         }
-
-
     }
 
 }

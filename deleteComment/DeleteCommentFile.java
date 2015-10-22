@@ -23,15 +23,12 @@ public class DeleteCommentFile {
 
     public void deleteCommentText() throws IllegalStateException{
 
-        text = deleteCommentsLine("(?<=[^\\\".*(//)])(//.*)(?=[^\\\"])", text);
-        text = deleteCommentsLine("(/\\*)(.*[\\n\\s]+\\*.*)+/", text);
-        text = deleteCommentsLine("(?<=[^\\\"(\\/\\*)])(\\/\\*.*\\*\\/)(?=[^\\\"])", text);
+        text = deleteCommentsLine("(?<=[^(\\\".*)(//\\w)])(//.*)(?=[^\\\"])", text);
+
+        text = deleteCommentsLine("(?<=[^\\\".*?(//\\*)\\w])(/\\*([^*]|[\\r\\n]|(\\*+([^*/]|[\\r\\n])))*\\*+/)|[\\t\\r\\n]@i(?=[^\\\"])", text);
+
         textEdited.append(text);
 
-    }
-
-    public void printTextToFile(){
-        file.writeTextInFile(textEdited);
     }
 
     private String deleteCommentsLine(String regex, String text){
@@ -41,6 +38,11 @@ public class DeleteCommentFile {
             text = text + item;
         }
         return text;
+    }
+
+
+    public void printTextToFile(){
+        file.writeTextInFile(textEdited);
     }
 
     public void printText(){
