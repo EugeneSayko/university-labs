@@ -1,0 +1,60 @@
+<company>
+	<name>Google Inc.</name>
+	<shortTitle>GOOG</shortTitle>
+	<dateUpdate>2015</dateUpdate>
+	<address>USA: Mountain View</address>
+	<dateFoundation>4 September 1998</dateFoundation>
+	<countEmployees>53600</countEmployees>
+	<auditor>Ernst & Young</auditor>
+	<phone></phone>
+	<email>mail.google.com</email>
+	<branch>IT</branch>
+	<activity>search</activity>
+	<internetAddress>google.com</internetAddress>
+</company>
+
+<company>
+	<name>Apple Inc.</name>
+	<shortTitle>AAPL</shortTitle>
+	<dateUpdate>2015</dateUpdate>
+	<address>USA: Cuperdino</address>
+	<dateFoundation>1 April 1976</dateFoundation>
+	<countEmployees>115000</countEmployees>
+	<auditor>Ernst & Young</auditor>
+	<phone>(800) 538-9696</phone>
+	<email></email>
+	<branch>IT</branch>
+	<activity>Consumer electronics</activity>
+	<internetAddress>apple.com</internetAddress>
+</company>
+
+<company>
+	<name>Electronic Arts Inc.</name>
+	<shortTitle>EA</shortTitle>
+	<dateUpdate>2015</dateUpdate>
+	<address>USA: Redwood City</address>
+	<dateFoundation>28 May 1982</dateFoundation>
+	<countEmployees>8400</countEmployees>
+	<auditor></auditor>
+	<phone>+7 (495) 642 73 97</phone>
+	<email>community_russia@ea.com</email>
+	<branch>IT</branch>
+	<activity>Video Games</activity>
+	<internetAddress>ea.com</internetAddress>
+</company>
+
+<company>
+	<name>Starbucks Corporation</name>
+	<shortTitle>SBUX</shortTitle>
+	<dateUpdate>2014</dateUpdate>
+	<address>USA: Seattle</address>
+	<dateFoundation>30 March 1971</dateFoundation>
+	<countEmployees>191000</countEmployees>
+	<auditor></auditor>
+	<phone>+1 800-782-7282</phone>
+	<email></email>
+	<branch>Coffee shop</branch>
+	<activity>Coffee</activity>
+	<internetAddress>www.starbucks.com</internetAddress>
+</company>
+
