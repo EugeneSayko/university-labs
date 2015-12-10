@@ -36,7 +36,7 @@ public class FileRead {
                 ){
             printStream.print(str);
         }catch (IOException e){
-            System.out.println("не удалось записать текст в файл!");
+            System.out.println("error write text in file");
         }
     }
 

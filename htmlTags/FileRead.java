@@ -16,7 +16,6 @@ public class FileRead {
             text.append(line);
             text.append("\n");
         }
-
         return text;
     }
 

@@ -25,13 +25,6 @@ public class MainCompany {
 
         Menu menu = new Menu();
         try {
-            DateTimeFormatter formatter =
-                    DateTimeFormatter
-                            .ofPattern("MM dd, yyyy - HH:mm");
-
-            LocalDateTime parsed = LocalDateTime.parse("12 03, 2014 - 07:13", formatter);
-            String string = formatter.format(parsed);
-            System.out.println(string);
             menu.run();
         } catch (IOException e) {
             System.out.println("error");

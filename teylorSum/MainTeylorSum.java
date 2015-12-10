@@ -11,19 +11,19 @@ public class MainTeylorSum {
 
         try {
             teylor.readerNumber();
+            System.out.print("standard: ");
+            System.out.printf("%8.3f\n", teylor.sumStandardLib());
+
+            System.out.print("sum: ");
+            System.out.printf("%8.3f\n", teylor.sumTeylor());
+
+            teylor.equal();
 
         }catch (IOException e){
             e.printStackTrace();
         }catch (NumberFormatException e){
             System.out.println("incorrect format number!");
         }
-        System.out.print("standard: ");
-        System.out.printf("%8.3f\n", teylor.sumStandardLib());
-
-        System.out.print("sum: ");
-        System.out.printf("%8.3f\n", teylor.sumTeylor());
-
-        teylor.equal();
 
     }
 

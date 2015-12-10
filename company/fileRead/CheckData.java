@@ -13,8 +13,8 @@ public class CheckData {
 
     public String checkDate(Date date) throws ParseException{
         SimpleDateFormat format = new SimpleDateFormat("d MMMM yyyy", Locale.ENGLISH);
-
         return format.format(date);
     }
+
 
 }

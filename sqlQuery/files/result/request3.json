@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Apple Inc.",
+    "shortTitle": "AAPL",
+    "dateUpdate": "2015",
+    "address": "USA: Cuperdino",
+    "dateFoundation": "Apr 1, 1976 12:00:00 AM",
+    "countEmployees": 115000,
+    "auditor": "Ernst \u0026 Young",
+    "phone": "(800) 538-9696",
+    "email": "",
+    "branch": "IT",
+    "activity": "Consumer electronics",
+    "internetAddress": "apple.com"
+  }
+]

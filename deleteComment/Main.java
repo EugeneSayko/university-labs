@@ -20,7 +20,7 @@ public class Main {
         String str = "'";//COMMENT
         char ccc = '*';
         char cccc = '"'; //"hjhkjhkj
-        System.out.println("/*dfsdf*////***8*/**//**Hello\", \\'world!\\");/**/ //
+        System.out.println("/*dfsdf*////***8*/**//**Hello\\\");\\\", \\'world!\\");/**/ //
         cccc = 100/'*';
         char f = '\\';
         char f1 = '\n';

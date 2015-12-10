@@ -1,0 +1,3 @@
+Select * from database where employees between 20000 and 20;
+SELECT * FROM database where activity = 'sea';
+select * from database where shortTitle='aapl';

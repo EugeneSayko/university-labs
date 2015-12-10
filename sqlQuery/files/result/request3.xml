@@ -1,0 +1,15 @@
+<company>
+	<name>Apple Inc.</name>
+	<shortTitle>AAPL</shortTitle>
+	<dateUpdate>2015</dateUpdate>
+	<address>USA: Cuperdino</address>
+	<dateFoundation>Thu Apr 01 00:00:00 MSK 1976</dateFoundation>
+	<countEmployees>115000</countEmployees>
+	<auditor>Ernst & Young</auditor>
+	<phone>(800) 538-9696</phone>
+	<email></email>
+	<branch>IT</branch>
+	<activity>Consumer electronics</activity>
+	<internetAddress>apple.com</internetAddress>
+</company>
+

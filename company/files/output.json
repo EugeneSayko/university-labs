@@ -1,56 +1,14 @@
 {
-	"name": "Google Inc.",
-	"shortTitle": "GOOG",
-	"dateUpdate": "2015",
-	"address": "USA: Mountain View",
-	"dateFoundation": "4 September 1998",
-	"countEmployees": "53600",
+	"name": "Facebook Inc.",
+	"shortTitle": "FB",
+	"dateUpdate": "2014",
+	"address": "USA: Menlo Park",
+	"dateFoundation": "4 February 2004",
+	"countEmployees": "10082",
 	"auditor": "Ernst & Young",
 	"phone": "",
-	"email": "mail.google.com",
+	"email": "@facebook.com",
 	"branch": "IT",
-	"activity": "search",
-	"internetAddress": "google.com"
-}
-{
-	"name": "Apple Inc.",
-	"shortTitle": "AAPL",
-	"dateUpdate": "2015",
-	"address": "USA: Cuperdino",
-	"dateFoundation": "1 April 1976",
-	"countEmployees": "115000",
-	"auditor": "Ernst & Young",
-	"phone": "(800) 538-9696",
-	"email": "",
-	"branch": "IT",
-	"activity": "Consumer electronics",
-	"internetAddress": "apple.com"
-}
-{
-	"name": "Electronic Arts Inc.",
-	"shortTitle": "EA",
-	"dateUpdate": "2015",
-	"address": "USA: Redwood City",
-	"dateFoundation": "28 May 1982",
-	"countEmployees": "8400",
-	"auditor": "",
-	"phone": "+7 (495) 642 73 97",
-	"email": "community_russia@ea.com",
-	"branch": "IT",
-	"activity": "Video Games",
-	"internetAddress": "ea.com"
-}
-{
-	"name": "Starbucks Corporation",
-	"shortTitle": "SBUX",
-	"dateUpdate": "2014",
-	"address": "USA: Seattle",
-	"dateFoundation": "30 March 1971",
-	"countEmployees": "191000",
-	"auditor": "",
-	"phone": "+1 800-782-7282",
-	"email": "",
-	"branch": "Coffee shop",
-	"activity": "Coffee",
-	"internetAddress": "www.starbucks.com"
+	"activity": "Social networking service",
+	"internetAddress": "facebook.com"
 }

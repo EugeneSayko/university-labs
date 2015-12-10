@@ -29,6 +29,7 @@ public class FileName {
             fileNameOutputTegs = properties.getProperty("file_name_output_tegs");
             fileNameOutputLines = properties.getProperty("file_name_output_lines");
             fileNameOutputFragments = properties.getProperty("file_name_output_fragments");
+
         } catch (FileNotFoundException e) {
             System.out.println("file not found error");
         } catch (IOException e) {

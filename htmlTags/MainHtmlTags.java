@@ -9,6 +9,7 @@ import java.io.IOException;
 public class MainHtmlTags {
 
     public static void main(String[] args){
+
         ProccesingHtmlTag proccesingHtmlTag = new ProccesingHtmlTag();
         try {
             proccesingHtmlTag.readText();

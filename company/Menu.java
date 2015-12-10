@@ -101,7 +101,8 @@ public class Menu {
         System.out.print("Enter min date(for example - 01 January 1970): ");
 
         Date minDate = new Date(reader.readLine());
-        System.out.print("Enter min date(format - d m y): ");
+        System.out.println(minDate);
+        System.out.print("Enter max date(format - d m y): ");
         Date maxDate = new Date(reader.readLine());
         companyList = companies.searchDate(minDate, maxDate);
     }

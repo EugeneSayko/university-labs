@@ -43,7 +43,6 @@ public class ReadingDataFile {
                 printStream.println("no search");
             }
 
-
         }catch (IOException e){
             System.out.println("error write text in file");
         }
